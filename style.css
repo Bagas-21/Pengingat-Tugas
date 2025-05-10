@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Orbitron', sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #f1f1f1;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 700px;
+  margin: auto;
+  background: rgba(20, 20, 30, 0.85);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.2);
+}
+
+h1, h2 {
+  text-align: center;
+  color: #00ffe0;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="date"],
+button {
+  padding: 12px;
+  margin-top: 10px;
+  width: 100%;
+  background-color: #1f1f2e;
+  border: 1px solid #00fff0;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #00ffe0;
+  outline: none;
+}
+
+input::placeholder {
+  color: #888;
+}
+
+button {
+  background-color: #00ffe0;
+  color: #121212;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #ff00cc;
+  color: #fff;
+  box-shadow: 0 0 10px #ff00cc;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+}
+
+#task-list li {
+  background: rgba(50, 50, 70, 0.6);
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 8px;
+  border-left: 5px solid #ff00cc;
+  color: #ffffffcc;
+}
+
+#timer {
+  font-size: 3em;
+  text-align: center;
+  margin: 20px 0;
+  color: #00ffff;
+  text-shadow: 0 0 5px #0ff;
+}
+
+#motivasi {
+  margin-top: 20px;
+  background-color: rgba(255, 0, 200, 0.1);
+  padding: 15px;
+  border-left: 5px solid #ff00cc;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #ff66cc;
+  text-shadow: 0 0 2px #ff99cc;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.gundam-wrapper {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  
+  .gundam-img {
+    width: 220px;
+    max-width: 80%;
+    filter: drop-shadow(0 0 10px #00ffe0);
+    border-radius: 12px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+  
+  .gundam-img:hover {
+    transform: scale(1.05) rotate(2deg);
+    filter: drop-shadow(0 0 15px #ff00cc);
+  }
+  

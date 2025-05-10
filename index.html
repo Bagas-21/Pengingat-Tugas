@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pengingat Tugas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Tugasmu DIKERJAKAN!!</h1>
+    <div class="gundam-wrapper">
+        <img src=EXIA.png alt="Gundam Exia" class="gundam-img">
+      </div>
+      
+
+    <form id="task-form">
+      <input type="text" id="task-name" placeholder="Nama Tugas" required>
+      <input type="date" id="task-deadline" required>
+      <button type="submit">Tambah Tugas</button>
+    </form>
+
+    <h2>📋 Daftar Tugas</h2>
+    <ul id="task-list"></ul>
+
+    <h2>⏱️ Timer</h2>
+    <div id="timer">25:00</div>
+    <button id="start-timer">Mulai Pengingat</button>
+
+    <div id="motivasi" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
